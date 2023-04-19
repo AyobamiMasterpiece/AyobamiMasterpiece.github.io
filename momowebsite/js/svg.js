@@ -9,3 +9,8 @@ svg.addEventListener("load", function() {
     path.style.fill = "red";
   });
 });
+
+
+const star = document.querySelector('.fa-star');
+star.style.fill = 'red'; // Change the color to red
+

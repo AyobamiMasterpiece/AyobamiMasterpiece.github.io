@@ -457,7 +457,12 @@ font-family: 'poppins';
 
 .star .fa-star{
    max-width: 16%;
+  
    
+}
+.fa-star:hover{
+   
+ 
 }
 
 
