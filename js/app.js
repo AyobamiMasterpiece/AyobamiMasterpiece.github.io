@@ -231,6 +231,8 @@ console.log(cartItem);
     //   cartNum.textContent = amount;
     // }
     Storages.saveCart(cart)
+    
+
 }
 
 
@@ -240,8 +242,13 @@ let amount =cartItem.amount
 amount-=1
 
 cartItem.amount=amount
+console.log(cartItem)
 
 btn.previousElementSibling.innerHTML=amount
+this.setCartValues(cart)
+console.log(cart)
+
+Storages.saveCart(cart)
 
 if (amount==0) {
 //   btn.parentElement.parentElement.remove()
