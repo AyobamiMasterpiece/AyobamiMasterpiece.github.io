@@ -20,8 +20,10 @@
 </head>
 <body>
     <script defer src="nav.js"></script>
-    <script defer src="js/svg.js"></script>
+    <script  defer src="js/app.js"></script>
+    <script  src="js/svg.js"></script>
     <script defer src="js/elementappear.js"></script>
+    
 <div id="header">
 
                                     <div id="heading">
@@ -44,8 +46,8 @@
                                             <i class="fa-solid fa-magnifying-glass margin fa-shake"></i>
                                         <div class="cart-box  " style="margin-right: 1.2rem">
                          
-                                            <i class="fa-solid fa-cart-shopping" style="font-size: 1.4rem;"></i>
-                                        <span class="cart-num fa-flip">0</span>
+                                            <i class="fa-solid fa-cart-shopping open-cart" style="font-size: 1.4rem;"></i>
+                                        <span class="cart-num fa-flip" id="cart-num">0</span>
                                         
                                         </div>
                                         <i class="fa-solid fa-bars fa-bounce  margin"></i>
@@ -124,7 +126,7 @@
     <hr>
     <div id="product-container">
                 <div id="filter-side">
-                <i class="fa fa-filter" style="font-size:30px;color:black"></i>
+                <i class="fa fa-filter background-back" style="font-size:30px;color:black"></i>
                 <p  id="filter">Filter</p>
                 </div>
     
@@ -133,7 +135,7 @@
     
                 <div id="sortby-side">
                 <p id="sort">Sort by</p>
-                <i class="material-icons" style="font-size:30px">keyboard_arrow_down</i>
+                <i class="material-icons background-back" style="font-size:30px">keyboard_arrow_down</i>
             
                 </div>
     
@@ -143,8 +145,8 @@
     
                 <div id="box-side">
                    
-                <i class="material-icons" style="font-size:30px">apps</i>
-                <i class="material-icons" style="font-size:30px;margin-left: 20px;">view_list</i>
+                <i class="material-icons background-back" style="font-size:30px">apps</i>
+                <i class="material-icons background-back"  style="font-size:30px;margin-left: 20px;">view_list</i>
               
                 </div>
     
@@ -206,38 +208,6 @@
     <div id="flex-containers">
 
 
-   
-<div class="over-container">
-    <div class="container">
-        <div class="img-container">
-        <img src="images/3.jpg" alt="" width="100%" >
-        <!-- <object id="my-svg" type="image/svg+xml" data="images/vector.svg" class="love"></object> -->
-
-        <img src="images/vector.svg" alt="" width="10%" class="love fa-" id="my-svg">
-        <!-- <i class="fa-sharp fa-solid fa-heart love"></i> -->
-        <div class="star">
-       <img src="images/Star.svg" alt="" srcset="" class="fa-star" max-width="5%">
-       <img src="images/Star.svg" alt="" srcset="" class="fa-star">
-       <img src="images/Star.svg" alt="" srcset="" class="fa-star">
-       <img src="images/Star.svg" alt="" srcset="" class="fa-star">
-       <img src="images/Star.svg" alt="" srcset="" class="fa-star">
-        </div>
-        </div>
-    
-    
-    
-    
-    <p>Eau de parfum 100ml</p>
-    <p>20,000#</p>
-    <div class="button-under">
-        <button class="buy-button fa-bounce">Buy Now</button>
-        <i class="fa-solid fa-cart-shopping fa-beat" style="font-size: 2.2rem;"></i>
-
-        <!-- <img src="cart.svg" alt=""> -->
-    </div>
-</div>
-
-</div>
 
 
 
@@ -255,25 +225,6 @@
 
 
 
-<div class="over-container">
-    <div class="container">
-        <div class="img-container">
-        <img src="images/2.jpg" alt="">
-        </div>
-    
-    
-    
-    
-    <p>Eau de parfum 100ml</p>
-    <p>20,000#</p>
-    <div class="button-under">
-        <button class="buy-button">Buy Now</button>
-        <i class="fa-solid fa-cart-shopping" style="font-size: 1.4rem;"></i>
-        <i class="material-icons" style="font-size:36px">shopping_cart</i>
-    </div>
-</div>
-
-</div>
 
 
 
@@ -292,29 +243,6 @@
 
 
 
-
-
-
-
-<div class="over-container">
-    <div class="container">
-        <div class="img-container">
-        <img src="images/2.jpg" alt="">
-        </div>
-    
-    
-    
-    
-    <p>Eau de parfum 100ml</p>
-    <p>20,000#</p>
-    <div class="button-under">
-        <button class="buy-button">Buy Now</button>
-        <i class="material-icons" style="font-size:36px">shopping_cart</i>
-    </div>
-</div>
-
-</div>
- 
 
 
 
@@ -419,8 +347,8 @@
 <div class="review-box">
 
 
-<div class="less-than">
-<i class="fa-thin fa-less-than"></i>
+<div class="less-than background-back">
+    <i class="fa-solid fa-less-than fa-beat-fade"></i>
 </div>
 
 
@@ -440,9 +368,12 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos maxime sequi 
 </div>
 
 <div class="review-rating">
-
-<object type="image/svg+xml" data="images/Star.svg" id="svg-object" max-width="5%"></object>
-
+    <i class="fa-regular fa-star fa-bounce" style="color:#B88A2E;"></i>
+    <i class="fa-regular fa-star fa-bounce" style="color:#B88A2E;"></i>
+    <i class="fa-regular fa-star fa-bounce" style="color:#B88A2E;"></i>
+    <i class="fa-regular fa-star fa-bounce" style="color:#B88A2E;"></i>
+    <i class="fa-regular fa-star fa-bounce" style="color:#B88A2E;"></i>
+    
  </div>
  
  
@@ -451,8 +382,8 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos maxime sequi 
 
 
 
-<div class="less-than">
-    <i class="fa-thin fa-greater-than"></i>
+<div class="less-than background-back">
+    <i class="fa-solid fa-greater-than fa-beat-fade"></i>
 </div>
 
 
@@ -548,27 +479,18 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos maxime sequi 
             <i class="fa-solid fa-xmark fa-bounce cancel-cart"></i>
         </div>
         <h1>CART</h1>
-        <div class="cart-content">
-            <div class="cart-item">
-                <img src="images/3.jpg" alt="">
-                <div class="item-info">
-                    <p>Eau de parfum 100ml</p>
-                    <p>#3500</p>
-                    <p class="remove-item">remove</p>
+        <div class="cart-content" id="cart-content">
+           
+           
+        </div>
 
-                </div>
-                <div class="cart-increment-side">
-                    <i class="fa-solid fa-chevron-up fa-bounce"></i>
-                    <p>1</p>
-                    <i class="fa-solid fa-chevron-down fa-bounce"></i>
-                </div>
-            </div>
-            <div class="cart-footer">
-                <h3>
-                    your total : # <span class="cart-total">0</span>
-                  </h3>
-                  <button class="clear-cart banner-btn fa-fade">clear cart</button>
-            </div>
+
+
+        <div class="cart-footer">
+            <h3>
+                your total : # <span class="cart-total" id="cart-total">0</span>
+              </h3>
+              <button class="clear-cart banner-btn fa-fade" id="clear-cart">clear cart</button>
         </div>
     </div>
 </div>
