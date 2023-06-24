@@ -24,12 +24,12 @@ produts.forEach(product => {
    
   
     <div class="star">
-    <i class="fa-regular fa-star fa-bounce" style="color:#B88A2E;"></i>
-    <i class="fa-regular fa-star fa-bounce" style="color:#B88A2E;"></i>
-    <i class="fa-regular fa-star fa-bounce" style="color:#B88A2E;"></i>
-    <i class="fa-regular fa-star fa-bounce" style="color:#B88A2E;"></i>
+    <i class="fa-regular fa-star" style="color:#B88A2E;"></i>
+    <i class="fa-regular fa-star " style="color:#B88A2E;"></i>
+    <i class="fa-regular fa-star " style="color:#B88A2E;"></i>
+    <i class="fa-regular fa-star " style="color:#B88A2E;"></i>
        
-    <i class="fa-regular fa-star fa-bounce" style="color:#B88A2E;"></i>
+    <i class="fa-regular fa-star " style="color:#B88A2E;"></i>
     </div>
     </div>
 
@@ -39,8 +39,8 @@ produts.forEach(product => {
 <p>${product.productName}</p>
 <p>${product.productPrice}#</p>
 <div class="button-under">
-    <button class="buy-button fa-bounce"  data-id='${product.id}'>Buy Now</button>
-    <i class="fa-solid fa-cart-shopping cart-btn fa-beat" data-id='${product.id}' style="font-size: 2.2rem; color: #454545"></i>
+    <button class="buy-button"  data-id='${product.id}'>Buy Now</button>
+    <i class="fa-solid fa-cart-shopping cart-btn" data-id='${product.id}' style="font-size: 2.2rem; color: #454545"></i>
 
     <!-- <img src="cart.svg" alt=""> -->
 </div>
